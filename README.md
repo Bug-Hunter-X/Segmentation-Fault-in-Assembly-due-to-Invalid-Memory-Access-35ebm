@@ -1,0 +1,1 @@
+This repository contains an example of a common assembly language error: accessing memory outside the allocated address space. The `bug.asm` file demonstrates the problematic code.  The solution, provided in `bugSolution.asm`, adds a bounds check before accessing memory to prevent segmentation faults.
